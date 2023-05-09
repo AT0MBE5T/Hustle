@@ -10,8 +10,164 @@
   font-family: Quicksand;
   src: url(../Fonts/Quicksand-VariableFont_wght.ttf);
 }
+html {
+  font-size: 10px;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-size: 10px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.main .main__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url(./img/bg.png) 0 0/100% 100% no-repeat;
+}
+.main .main__nav {
+  padding: 0 100px;
+  margin: 56px 0 100px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.main .main__nav .nav__elem1 {
+  display: flex;
+  align-items: center;
+}
+.main .main__nav .nav__elem1 .elem1__imgContainer {
+  display: inline-block;
+  height: 100%;
+}
+.main .main__nav .nav__elem1 .elem1__imgContainer .elem1__img {
+  width: 105%;
+  height: 105%;
+}
+.main .main__nav .nav__elem1 .elem1__text .elem1__text1 {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  font-size: 2rem;
+  line-height: 20px;
+  color: #0897AB;
+  padding-left: 10px;
+  padding-top: 5px;
+  text-transform: uppercase;
+}
+.main .main__nav .nav__elem1 .elem1__text .elem1__text2 {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  font-size: 2rem;
+  line-height: 20px;
+  color: #FFFFFF;
+  padding-left: 34px;
+  text-transform: uppercase;
+}
+.main .main__nav .nav__elem2 {
+  display: flex;
+  align-items: center;
+  gap: 53px;
+}
+.main .main__nav .nav__elem2 .elem2__searchContainer {
+  background: rgba(40, 40, 52, 0.01);
+  border: 2px solid #0897AB;
+  box-shadow: 0px 0px 38px rgba(0, 0, 0, 0.52);
+  border-radius: 23px;
+  border-radius: 75px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 176px;
+  padding-right: 225px;
+  display: flex;
+  justify-content: flex-start;
+  background: url(./img/magnifier.svg) 29px 18px no-repeat;
+}
+.main .main__nav .nav__elem2 .elem2__searchContainer .elem2__search {
+  margin-left: 64px;
+  font-family: "Doppio One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.58);
+}
+.main .main__nav .nav__elem2 .elem2__bin {
+  background: url(./img/bin.svg) no-repeat;
+  width: 47px;
+  height: 44px;
+  text-align: center;
+  position: relative;
+}
+.main .main__nav .nav__elem2 .elem2__bin .elem2__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  background-color: #0897AB;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 27px;
+  left: 25px;
+}
+.main .main__description {
+  width: 915px;
+  width: 1200px;
+  height: 700px;
+  padding: 72px 67px 150px 67px;
+  padding-left: 200px;
+  margin: 0 680px 0 25px;
+  background: url(./img/Rectangle.svg) -130px 0/100% 100% no-repeat;
+}
+.main .main__description .description__square {
+  background-size: 1200px;
+}
+.main .main__description .description__square .description__h1 {
+  font-family: "Doppio One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 5.5rem;
+  line-height: 60px;
+  color: #FFFFFF;
+  width: 500px;
+}
+.main .main__description .description__square .description__text {
+  padding-right: 375px;
+  font-family: "Doppio One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 157%;
+  letter-spacing: 0.07em;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+.main .main__description .description__square .description__text::first-letter {
+  padding-left: 15px;
+}
+.main .main__description .description__square .description__button {
+  font-family: "Doppio One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 25px;
+  color: #FFFFFF;
+  padding: 20px 50px;
+  background: url(./img/Subtract.svg) no-repeat;
+}
+.main .main__description .description__square .description__link {
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
