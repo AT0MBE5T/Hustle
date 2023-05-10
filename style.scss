@@ -24,7 +24,7 @@ body{
     padding: 0;
 }
 
-p{
+.elem1__text > p, .description__square > p{
     margin: 0;
     padding: 0;
 }
@@ -132,30 +132,35 @@ p{
         }
     }
     .main__description{
-        width: 915px;
-        width: 1200px;
-        height: 700px;
-        padding: 72px 67px 150px 67px;
-        padding-left: 200px;
-        margin: 0 680px 0 25px;
-        background: url(./img/Rectangle.svg) -130px 0/100% 100% no-repeat;
+        z-index: 1;
+        padding: 72px 67px 10% 200px;
+        margin: 0 680px 0 100px;
+        position: relative;
+        z-index: 0;
         .description__square{
-            background-size: 1200px;
+            .description__imgContainer{
+                position: absolute;
+                z-index: -1;
+                margin: -100px 0 0 -100px;
+            }
+            .description__buttonContainer{
+                display: inline-block;
+            }
             .description__h1{
                 font-family: 'Doppio One';
                 font-style: normal;
                 font-weight: 400;
-                font-size: 5.5rem;
+                font-size: 4.8rem;
                 line-height: 60px;
                 color: #FFFFFF;
                 width: 500px;
             }
             .description__text{
-                padding-right: 375px;
+                width: 650px;
                 font-family: 'Doppio One';
                 font-style: normal;
                 font-weight: 400;
-                font-size: 2.5rem;
+                font-size: 2rem;
                 line-height: 157%;
                 letter-spacing: 0.07em;
                 color: #FFFFFF;
