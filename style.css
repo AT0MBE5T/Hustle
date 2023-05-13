@@ -26,7 +26,7 @@ body {
 
 .main .main__bg {
   width: 100vw;
-  background: url(./img/bg.png) 0 0/100% 100% no-repeat;
+  background: url(./img/main/bg.png) 0 0/100% 100% no-repeat;
 }
 .main .main__nav {
   padding: 56px 100px 125px 100px;
@@ -85,7 +85,7 @@ body {
   padding-right: 225px;
   display: flex;
   justify-content: flex-start;
-  background: url(./img/magnifier.svg) 29px 18px no-repeat;
+  background: url(./img/main/magnifier.svg) 29px 18px no-repeat;
 }
 .main .main__nav .nav__elem2 .elem2__searchContainer .elem2__search {
   margin-left: 64px;
@@ -97,7 +97,7 @@ body {
   color: rgba(255, 255, 255, 0.58);
 }
 .main .main__nav .nav__elem2 .elem2__bin {
-  background: url(./img/bin.svg) no-repeat;
+  background: url(./img/main/bin.svg) no-repeat;
   width: 47px;
   height: 44px;
   text-align: center;
@@ -169,8 +169,209 @@ body {
   line-height: 25px;
   color: #FFFFFF;
   padding: 20px 62px;
-  background: url(./img/Subtract.svg) 0 0/100% 100% no-repeat;
+  background: url(./img/main/Subtract.svg) 0 0/100% 100% no-repeat;
 }
 .main .main__description .description__square .description__link {
   text-decoration: none;
+}
+
+.recommendation {
+  margin: 0;
+  position: relative;
+  background: linear-gradient(112deg, rgb(26, 28, 75) 16.68%, rgb(8, 151, 171) 96.66%);
+}
+
+.HU-1-3 {
+  width: 100vw;
+  height: auto;
+  display: flex;
+}
+
+.HU-1-3__leftpanel {
+  position: relative;
+  width: 49vw;
+  width: 650px;
+  z-index: 0;
+}
+
+.HU-1-3__leftpanel .leftpanel__img1 {
+  width: 125px;
+  position: absolute;
+  left: 35%;
+  top: 20%;
+}
+
+.HU-1-3__leftpanel .leftpanel__img2 {
+  width: 125px;
+  position: absolute;
+  left: 53.847%;
+  height: 403px;
+  top: 109px;
+}
+
+.HU-1-3__leftpanel .leftpanel__backimg {
+  position: absolute;
+  z-index: -1;
+  left: 1.5rem;
+  top: 1rem;
+  width: 58rem;
+}
+
+.leftpanel__content {
+  left: 0;
+  top: 0%;
+  position: relative;
+  width: 65rem;
+  height: 65rem;
+}
+
+.HU-1-3__leftpanel h1 {
+  font-family: "Dhurjati", sans-serif;
+  position: absolute;
+  left: 27%;
+  top: 7.5%;
+  top: 1%;
+  left: 22%;
+  color: white;
+  font-size: 5.6rem;
+  font-size: 9.6rem;
+  font-weight: normal;
+  line-height: 16rem;
+  letter-spacing: 1.312rem;
+  text-transform: uppercase;
+  width: 20vw;
+}
+
+.HU-1-3__rightpanel {
+  width: 50vw;
+}
+
+.HU-1-3__rightpanel h2 {
+  font-family: "Doppio One", sans-serif;
+  font-size: 4.8rem;
+  font-weight: normal;
+  color: white;
+  font-weight: 400;
+  margin-top: 15rem;
+}
+
+.HU-1-3__rightpanel h3 {
+  font-family: "Doppio One";
+  font-size: 2.4rem;
+  font-size: 3.2rem;
+  line-height: 4rem;
+  color: white;
+  font-weight: normal;
+}
+
+.HU-1-3__rightpanel span {
+  font-family: "Doppio One";
+  color: #D8A4B6;
+  font-size: 3rem;
+  font-size: 3.2rem;
+}
+
+.HU-1-3__rightpanel p {
+  font-family: "Doppio One";
+  font-size: 2rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.57);
+  width: 90%;
+}
+
+.HU-1-3 .rightpanel__link {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.HU-1-3 .rightpanel__link a {
+  font-family: "Dhurjati";
+  font-weight: 400;
+  color: white;
+  font-size: 3.6rem;
+  line-height: 6.7rem;
+  display: inline-block;
+  margin: 0;
+  text-decoration: none;
+}
+
+.HU-1-3 .rightpanel__link hr {
+  width: 10rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+} 
+.HU-1-2, .HU-1-4 {
+  padding-top: 65px;
+}
+
+.HU-1-2__h2 {
+  font-family: "Doppio One", sans-serif;
+  font-size: 4.8rem;
+  color: white;
+  text-align: center;
+  margin: 0;
+  position: relative;
+  font-weight: 400;
+}
+
+.HU-1-2__product, .HU-1-4__product {
+  display: flex;
+  padding: 5%;
+}
+
+.product__info {
+  width: 50%;
+}
+
+.info__h2 {
+  font-family: "Doppio One", sans-serif;
+  font-size: 4.8rem;
+  color: white;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.info__starting {
+  color: white;
+  margin: 0;
+  margin-right: 10%;
+}
+
+.info__price {
+  color: #ddafbf;
+  margin: 0;
+}
+
+.info__prices {
+  display: flex;
+  font-family: "Doppio One";
+  font-size: 3.2rem;
+  font-weight: 400;
+}
+
+.info__lorum {
+  font-family: "Doppio One";
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.57);
+  width: 90%;
+}
+
+.info__buy {
+  font-family: "Dhurjati";
+  font-weight: 400;
+  color: white;
+  font-size: 3.6rem;
+  line-height: 6.7rem;
+  border-bottom: 1px solid white;
+  display: inline-block;
+  margin: 0;
+  text-decoration: none;
+}
+
+.product__img img {
+  width: 590px;
 }/*# sourceMappingURL=style.css.map */
