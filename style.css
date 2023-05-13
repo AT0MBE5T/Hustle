@@ -25,7 +25,7 @@ body {
 }
 
 .main .main__bg {
-  height: 100vh;
+  width: 100vw;
   background: url(./img/bg.png) 0 0/100% 100% no-repeat;
 }
 .main .main__nav {
@@ -119,16 +119,21 @@ body {
   left: 25px;
 }
 .main .main__description {
-  padding: 72px 67px 10% 200px;
+  padding: 100px 67px 10% 200px;
   margin: 0 680px 0 0;
   padding-left: 10%;
   position: relative;
   z-index: 0;
+  bottom: 100px;
+  right: 30px;
 }
 .main .main__description .description__square .description__imgContainer {
   position: absolute;
   z-index: -1;
-  margin: -100px 0 0 -100px;
+  margin: -100px 0 0 -75px;
+}
+.main .main__description .description__square .description__imgContainer .description__img {
+  width: 800px;
 }
 .main .main__description .description__square .description__buttonContainer {
   display: inline-block;
@@ -160,11 +165,11 @@ body {
   font-family: "Doppio One";
   font-style: normal;
   font-weight: 400;
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: 25px;
   color: #FFFFFF;
-  padding: 20px 50px;
-  background: url(./img/Subtract.svg) no-repeat;
+  padding: 20px 62px;
+  background: url(./img/Subtract.svg) 0 0/100% 100% no-repeat;
 }
 .main .main__description .description__square .description__link {
   text-decoration: none;
