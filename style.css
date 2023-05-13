@@ -46,7 +46,7 @@ body {
   height: 105%;
 }
 .main .main__nav .nav__elem1 .elem1__text .elem1__text1 {
-  font-family: "Quicksand";
+  font-family: "Quicksand", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 1.6rem;
@@ -58,7 +58,7 @@ body {
   text-transform: uppercase;
 }
 .main .main__nav .nav__elem1 .elem1__text .elem1__text2 {
-  font-family: "Quicksand";
+  font-family: "Quicksand", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 1.6rem;
