@@ -30,7 +30,7 @@ body {
 .HU-1-3 {
   position: absolute;
   width: 100vw;
-  height: 100vh;
+  height: auto;
   display: flex;
 }
 .HU-1-3__leftpanel {
