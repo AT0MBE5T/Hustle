@@ -26,7 +26,7 @@ body {
 
 .main .main__bg {
   width: 100vw;
-  background: url(./img/bg.png) 0 0/100% 100% no-repeat;
+  background: url(./img/main/bg.png) 0 0/100% 100% no-repeat;
 }
 .main .main__nav {
   padding: 56px 100px 125px 100px;
@@ -85,7 +85,7 @@ body {
   padding-right: 225px;
   display: flex;
   justify-content: flex-start;
-  background: url(./img/magnifier.svg) 29px 18px no-repeat;
+  background: url(./img/main/magnifier.svg) 29px 18px no-repeat;
 }
 .main .main__nav .nav__elem2 .elem2__searchContainer .elem2__search {
   margin-left: 64px;
@@ -97,7 +97,7 @@ body {
   color: rgba(255, 255, 255, 0.58);
 }
 .main .main__nav .nav__elem2 .elem2__bin {
-  background: url(./img/bin.svg) no-repeat;
+  background: url(./img/main/bin.svg) no-repeat;
   width: 47px;
   height: 44px;
   text-align: center;
@@ -169,7 +169,7 @@ body {
   line-height: 25px;
   color: #FFFFFF;
   padding: 20px 62px;
-  background: url(./img/Subtract.svg) 0 0/100% 100% no-repeat;
+  background: url(./img/main/Subtract.svg) 0 0/100% 100% no-repeat;
 }
 .main .main__description .description__square .description__link {
   text-decoration: none;
