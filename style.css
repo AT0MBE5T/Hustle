@@ -23,7 +23,6 @@ body {
   margin: 0;
   position: relative;
   width: 100vw;
-  height: 100vw;
   background: linear-gradient(112deg, rgb(26, 28, 75) 16.68%, rgb(8, 151, 171) 96.66%);
 }
 
@@ -65,9 +64,10 @@ body {
   font-family: "Dhurjati", sans-serif;
   position: absolute;
   left: 27%;
-  top: 8%;
+  top: 7.5%;
   color: white;
   font-size: 5.6rem;
+  font-weight: normal;
   line-height: 16rem;
   letter-spacing: 1.312rem;
   text-transform: uppercase;
@@ -85,6 +85,7 @@ body {
   font-family: "Doppio One", sans-serif;
   width: 45vw;
   font-size: 4.2rem;
+  font-weight: normal;
   line-height: 6rem;
   color: white;
   margin-top: 15rem;
@@ -92,6 +93,7 @@ body {
 .HU-1-3__rightpanel .h3 {
   font-family: "Doppio One", sans-serif;
   font-size: 2.4rem;
+  font-weight: normal;
   line-height: 4rem;
   color: white;
 }
