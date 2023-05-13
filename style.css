@@ -34,6 +34,7 @@ body {
 .HU-1-3__leftpanel {
   position: relative;
   width: 49vw;
+  z-index: 0;
 }
 .HU-1-3__leftpanel .leftpanel__img1 {
   width: 10rem;
@@ -52,6 +53,7 @@ body {
   left: 1.5rem;
   top: 1rem;
   width: 58rem;
+  z-index: -1;
 }
 .HU-1-3__leftpanel .leftpanel__content {
   left: 0;

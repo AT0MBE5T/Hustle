@@ -37,6 +37,7 @@ body{
 &__leftpanel{
     position: relative;
     width: 49vw;
+    z-index: 0;
 .leftpanel{
 &__img1{
     width: 10rem;
@@ -55,6 +56,7 @@ body{
         left: 1.5rem;
         top:1rem;
         width: 58rem;
+        z-index: -1;
 }
 &__content{
     left: 0;
