@@ -1,17 +1,17 @@
 //fonts
 @font-face {
-    font-family: Dhurjati;
-    src: url(../Fonts/Dhurjati-Regular.ttf);
+    font-family: 'Dhurjati', sans-serif;
+    src: url(./Fonts/Dhurjati-Regular.ttf);
 }
 
 @font-face {
-    font-family: Doppio One;
-    src: url(../Fonts/DoppioOne-Regular.ttf);
+    font-family: 'Doppio One', sans-serif;
+    src: url(./Fonts/Doppio_One/DoppioOne-Regular.ttf);
 }
 
 @font-face {
-    font-family: Quicksand;
-    src: url(../Fonts/Quicksand-VariableFont_wght.ttf);
+    font-family: 'Quicksand', sans-serif;
+    src: url(./Fonts/Quicksand-VariableFont_wght.ttf);
 }
 //
 
@@ -51,16 +51,24 @@ body{
         top: 30%;
 }
 &__backimg{
-        left: 0rem;
-        top: 99.3rem;
+    position: absolute;
+        left: 1rem;
+        top:0.5rem;
         width: 60rem;
+}
+&__content{
+    left: 0;
+    top: 0%;
+    position: relative;
+    width: 65rem;
+    height: 65rem;
 }
 }
 h1{
-    font-family: 'Dhurjati';
+    font-family: 'Dhurjati',sans-serif;
     position: absolute;
-    left: 24.5%;
-    top: 6%;
+    left: 27%;
+    top: 8%;
     color: white;
     font-size: 5.6rem;
     line-height: 16rem;
@@ -71,27 +79,35 @@ h1{
 }
 &__rightpanel{
     width: 50vw;
-    h2{ 
-        font-family: 'Doppio One';
+    // h2{ 
+    //     font-family: 'Doppio One', sans-serif;
+    //     width: 45vw;
+    //     font-size:4.2rem;
+    //     line-height: 6rem;
+    //     color: white;
+    //     margin-top: 15rem;
+    // }
+    span{
+        font-family: 'Doppio One',sans-serif;
+        color: #D8A4B6;
+        font-size:3rem ;
+    }
+    .h2{
+        font-family: 'Doppio One', sans-serif;
         width: 45vw;
         font-size:4.2rem;
         line-height: 6rem;
         color: white;
-        margin-top: 15rem;
+        margin-top: 15rem;   
     }
-    h3{
-        font-family: 'Doppio One';
+    .h3{
+        font-family: 'Doppio One', sans-serif;
         font-size: 2.4rem;
         line-height: 4rem;
         color: white;
     }
-    span{
-        font-family: 'Doppio One';
-        color: #D8A4B6;
-        font-size:3rem ;
-    }
     p{
-        font-family: 'Doppio One';
+        font-family: 'Doppio One',sans-serif;
         width: 50vw;
         color:rgba(255, 255, 255, 0.54);
         font-size: 1.6rem;
@@ -102,7 +118,7 @@ h1{
         display: flex;
         flex-direction: column;
         a{
-            font-family: 'Dhurjati';
+            font-family: 'Dhurjati',sans-serif;
             font-size: 2.4rem;
             line-height: 6.7rem,;
             text-decoration:none;
