@@ -492,3 +492,83 @@ body{
     }
 
 }
+
+.stolbflex{
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+
+.niz__hr{
+  color: #eb0404;
+}
+
+.stolb{
+    display: inline-block;
+    font-family: 'Doppio One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 237.5%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+
+  h4{
+    color: #adadad;
+  }
+
+  p{
+    font-family: 'Doppio One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 237.5%;
+    text-transform: capitalize;
+    color: #adadad;
+  }
+}
+ .niz1 {
+  color:white;
+  margin-left: 30px;
+  display: block;
+
+  p{
+    display: inline-block;
+    font-family: 'Doppio One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 237.5%;
+    text-transform: capitalize;
+    color: #505050;
+  }
+
+ }
+
+.niz{
+  display: flex;
+  justify-content: space-between;
+}
+
+ .niz2 {
+  color:white;
+  margin-right: 30px;
+  display: block;
+  border: 1px;
+
+  p{
+    font-family: 'Doppio One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 237.5%;
+    text-transform: capitalize;
+    color: #505050;
+
+  }
+
+ }
+ .da{
+  padding-top: 50px;
+  background: linear-gradient(112deg, rgb(6,7,17) , rgb(6,76,89) );
+ }
