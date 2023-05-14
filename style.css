@@ -496,3 +496,78 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }/*# sourceMappingURL=style.css.map */
+
+.stolbflex {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+
+.niz__hr {
+  color: #eb0404;
+}
+
+.stolb {
+  display: inline-block;
+  font-family: "Doppio One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 237.5%;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.stolb h4 {
+  color: #adadad;
+}
+.stolb p {
+  font-family: "Doppio One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 237.5%;
+  text-transform: capitalize;
+  color: #adadad;
+}
+
+.niz1 {
+  color: white;
+  margin-left: 30px;
+  display: block;
+}
+.niz1 p {
+  display: inline-block;
+  font-family: "Doppio One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 237.5%;
+  text-transform: capitalize;
+  color: #505050;
+}
+
+.niz {
+  display: flex;
+  justify-content: space-between;
+}
+
+.niz2 {
+  color: white;
+  margin-right: 30px;
+  display: block;
+  border: 1px;
+}
+.niz2 p {
+  font-family: "Doppio One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 237.5%;
+  text-transform: capitalize;
+  color: #505050;
+}
+
+.da {
+  padding-top: 50px;
+  background: linear-gradient(112deg, rgb(6, 7, 17), rgb(6, 76, 89));
+}/*# sourceMappingURL=style.css.map */
