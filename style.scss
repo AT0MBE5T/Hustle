@@ -23,3 +23,114 @@ body{
     margin: 0;
     padding: 0;
 }
+
+.shop__select>div{
+    border:0.5vw solid #3C3B4B;
+    border-radius: 0.5vw;
+    width: 40vw;
+    height: 25vw;
+    overflow: hidden;
+}
+.shop{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Doppio One';
+    font-weight: 400;
+    padding-bottom: 9vw;
+    h3{
+        margin: 0 auto;
+        padding:3vw 0;
+        text-align: center;
+        color: #fff;
+        font-size: 3.5vw;
+        font-weight: 300;
+    }
+    &__mouse-price,&__pad-price,&__headphones-price,&__keyboard-price{
+        margin-top: 2vw;
+        width: fit-content;
+        margin-left: 3vw;
+        p{
+            margin-bottom: 0.5vw;
+            font-size: 1.2vw;
+        }
+        span{
+            color: #0897AB;
+            font-size: 1.5vw ;
+        }
+    }
+    &__mouse-text,&__pad-text,&__headphones-text,&__keyboard-text{
+        font-family: 'Montserrat';
+        color:#2D2D39;
+        font-size: 9.5vw;
+        font-weight: 800;
+        text-transform: uppercase;
+        position: relative;
+        left: -5%;
+        margin-top: 2vw;
+    }
+    &__mouse-desc,&__pad-desc,&__headphones-desc,&__keyboard-desc{
+        font-size: 1.5vw;
+        position: relative;
+        left: 8%;
+        bottom: 50%;
+    }
+    &__mouse-btn,&__keyboard-btn,&__pad-btn,&__headphones-btn{
+        position: sticky;
+        bottom: 5%;
+        left: 5%;
+        width: fit-content;
+        a{
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.5vw;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        div{
+            background-color: #0897AB;
+            clip-path: polygon(15% 0%, 95% 0, 100% 20%, 100% 85%, 100% 100%, 5% 100%, 0 80%, 0 0);
+            width: 16vw;
+            height: 4vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    &__keyboard,&__pad{
+        margin-left:1.5vw;
+    }
+    &__mouse,&__headphones{
+        margin-right:1.5vw;
+    }
+    &__headphones,&__keyboard{
+        margin-top: 3.5vw;
+    }
+
+    img{
+        width: 16vw;
+        position: sticky;
+        left: 60%;
+        bottom: 60%;
+    }
+    &__mouse>img{
+        width: 23vw;
+        left: 45%;
+    }
+    &__headphones>img{
+        width: 19vw;
+        left: 54%;
+    }
+    &__pad>img{
+        width: 21vw;
+        left: 49%;
+    }
+    &__select{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+}
