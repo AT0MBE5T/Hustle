@@ -10,6 +10,10 @@
   font-family: Quicksand;
   src: url(../Fonts/Quicksand-VariableFont_wght.ttf);
 }
+@font-face {
+  font-family: Montserrat;
+  src: url(./Fonts/Montserrat-VariableFont_wght.ttf);
+}
 html {
   font-size: 10px;
 }
@@ -374,4 +378,121 @@ body {
 
 .product__img img {
   width: 590px;
+}
+
+.shop__select > div {
+  border: 0.5vw solid #3C3B4B;
+  border-radius: 0.5vw;
+  width: 40vw;
+  height: 25vw;
+  overflow: hidden;
+}
+
+.shop {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Doppio One";
+  font-weight: 400;
+  padding-bottom: 9vw;
+}
+.shop h3 {
+  margin: 0 auto;
+  padding: 3vw 0;
+  text-align: center;
+  color: #fff;
+  font-size: 3.5vw;
+  font-weight: 300;
+}
+.shop__mouse-price, .shop__pad-price, .shop__headphones-price, .shop__keyboard-price {
+  margin-top: 2vw;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: 3vw;
+}
+.shop__mouse-price p, .shop__pad-price p, .shop__headphones-price p, .shop__keyboard-price p {
+  margin-bottom: 0.5vw;
+  font-size: 1.2vw;
+  font-weight: normal;
+}
+.shop__mouse-price span, .shop__pad-price span, .shop__headphones-price span, .shop__keyboard-price span {
+  color: #0897AB;
+  font-size: 1.5vw;
+}
+.shop__mouse-text, .shop__pad-text, .shop__headphones-text, .shop__keyboard-text {
+  font-family: "Montserrat";
+  color: #2D2D39;
+  font-size: 9.5vw;
+  font-weight: 800;
+  text-transform: uppercase;
+  position: relative;
+  left: -5%;
+  margin-top: 2vw;
+}
+.shop__mouse-desc, .shop__pad-desc, .shop__headphones-desc, .shop__keyboard-desc {
+  font-size: 1.5vw;
+  position: relative;
+  left: 8%;
+  bottom: 50%;
+  font-weight: normal;
+}
+.shop__mouse-btn, .shop__keyboard-btn, .shop__pad-btn, .shop__headphones-btn {
+  position: sticky;
+  bottom: 5%;
+  left: 5%;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-weight: normal;
+}
+.shop__mouse-btn a, .shop__keyboard-btn a, .shop__pad-btn a, .shop__headphones-btn a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: normal;
+}
+.shop__mouse-btn div, .shop__keyboard-btn div, .shop__pad-btn div, .shop__headphones-btn div {
+  background-color: #0897AB;
+  -webkit-clip-path: polygon(15% 0%, 95% 0, 100% 20%, 100% 85%, 100% 100%, 5% 100%, 0 80%, 0 0);
+          clip-path: polygon(15% 0%, 95% 0, 100% 20%, 100% 85%, 100% 100%, 5% 100%, 0 80%, 0 0);
+  width: 16vw;
+  height: 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 100;
+}
+.shop__keyboard, .shop__pad {
+  margin-left: 1.5vw;
+}
+.shop__mouse, .shop__headphones {
+  margin-right: 1.5vw;
+}
+.shop__headphones, .shop__keyboard {
+  margin-top: 3.5vw;
+}
+.shop img {
+  width: 16vw;
+  position: sticky;
+  left: 60%;
+  bottom: 60%;
+}
+.shop__mouse > img {
+  width: 23vw;
+  left: 45%;
+}
+.shop__headphones > img {
+  width: 19vw;
+  left: 54%;
+}
+.shop__pad > img {
+  width: 21vw;
+  left: 49%;
+}
+.shop__select {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
