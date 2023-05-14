@@ -21,7 +21,13 @@
 .stolb{
     color:white;
     width: 110px;
-  .niz1 {
+    height: 150px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 0px 0px 13%;
+   /* border: solid 1px black;*/
+}
+   .niz1 {
     color:white;
     margin: 0px 0px -45px 30px ;
     text-align: left;
@@ -43,10 +49,5 @@ border: 1px;
     width: 100vw;
     background: linear-gradient(112deg, rgb(6,7,17) , rgb(6,76,89) );
 
-   }    height: 150px;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0px 0px 0px 13%;
-   /* border: solid 1px black;*/
-}
+   }
  
