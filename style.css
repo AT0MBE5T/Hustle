@@ -1,14 +1,14 @@
 @font-face {
   font-family: Dhurjati;
-  src: url(../Fonts/Dhurjati-Regular.ttf);
+  src: url(./Fonts/Dhurjati-Regular.ttf);
 }
 @font-face {
   font-family: Doppio One;
-  src: url(../Fonts/DoppioOne-Regular.ttf);
+  src: url(./Fonts/DoppioOne-Regular.ttf);
 }
 @font-face {
   font-family: Quicksand;
-  src: url(../Fonts/Quicksand-VariableFont_wght.ttf);
+  src: url(./Fonts/Quicksand-VariableFont_wght.ttf);
 }
 @font-face {
   font-family: Montserrat;
