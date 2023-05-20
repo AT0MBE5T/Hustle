@@ -509,7 +509,7 @@ body, .elem1__text > p, .description__square > p {
 }
 
 .goods__123 {
-  width: 80vw;
+  width: 90vw;
   margin: 0 auto;
 }
 
@@ -525,10 +525,12 @@ body, .elem1__text > p, .description__square > p {
   display: flex;
 }
 .HU-2-5__img img {
+  width: 80%;
   padding: 6rem 7rem 6rem 3.4rem;
 }
 .HU-2-5__rightpanel {
   width: 50%;
+  margin-right: 3%;
 }
 .HU-2-5__rightpanel h2 {
   font-family: "Doppio One", sans-serif;

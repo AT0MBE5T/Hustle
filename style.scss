@@ -504,7 +504,7 @@ body, .elem1__text > p, .description__square > p{
 .wrapper{
   background: linear-gradient(112deg, rgba(26, 28, 75) 16.68%, rgba(8, 151, 171) 96.66%);
 }.goods__123{
-  width: 80vw;
+  width: 90vw;
   margin: 0 auto;
 }
 .HU-2-4{
@@ -516,11 +516,15 @@ box-shadow: 0.5rem 0.5rem 1rem 1rem rgba(0,0,0,0.2);
 &__img{
  display: flex;
   img{
+    width: 80%;
  padding: 6rem 7rem 6rem 3.4rem;
   }
 }
 &__rightpanel{
   width: 50%;
+  // padding: 4rem;
+  // margin-left: -8%;
+  margin-right: 3%;
   h2 {
 
     font-family: 'Doppio One', sans-serif;
