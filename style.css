@@ -150,9 +150,12 @@ body {
   list-style: none;
   padding: 0;
 }
+.HU-2-6 h3 {
+  color: #FFFFFF;
+}
 .HU-2-6 a {
   text-decoration: none;
-  color: #fff;
+  color: #CFCFCF;
   font-size: 1.2rem;
 }
 .HU-2-6__footer-flex {
@@ -169,16 +172,15 @@ body {
 .HU-2-6__copyright a {
   color: #505050;
 }
-
-.HU-2-6__footer-flex > div {
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
-.line {
+.HU-2-6__line {
   border: solid 1px #505050;
   grid-column-start: 1;
   grid-column-end: 5;
   width: 100%;
   margin: 30px 0;
+}
+
+.HU-2-6__footer-flex > div {
+  width: -moz-fit-content;
+  width: fit-content;
 }/*# sourceMappingURL=style.css.map */

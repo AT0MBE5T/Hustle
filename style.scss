@@ -153,9 +153,12 @@ ul{
     list-style: none;
     padding: 0;
 }
+h3{
+    color: #FFFFFF;
+}
 a{
     text-decoration: none;
-    color:#fff;
+    color:#CFCFCF;
     font-size: 1.2rem;
 }
 &__footer-flex{
@@ -172,15 +175,14 @@ a{
         color: #505050;
     }
 }
-}
-.HU-2-6__footer-flex>div{
-    width: fit-content;
-}
-
-.line{
+&__line{
     border: solid 1px #505050;
     grid-column-start: 1;
     grid-column-end: 5;
     width: 100%;
     margin: 30px 0;
+}
+}
+.HU-2-6__footer-flex>div{
+    width: fit-content;
 }
