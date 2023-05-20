@@ -1,17 +1,17 @@
 //fonts
 @font-face {
     font-family: Dhurjati;
-    src: url(../Fonts/Dhurjati-Regular.ttf);
+    src: url(./Fonts/Dhurjati-Regular.ttf);
 }
 
 @font-face {
     font-family: Doppio One;
-    src: url(../Fonts/DoppioOne-Regular.ttf);
+    src: url(./Fonts/DoppioOne-Regular.ttf);
 }
 
 @font-face {
     font-family: Quicksand;
-    src: url(../Fonts/Quicksand-VariableFont_wght.ttf);
+    src: url(./Fonts/Quicksand-VariableFont_wght.ttf);
 }
 
 @font-face {
@@ -24,12 +24,7 @@ html{
     font-size: 10px;
 }
 
-body{
-    margin: 0;
-    padding: 0;
-}
-
-.elem1__text > p, .description__square > p{
+body, .elem1__text > p, .description__square > p{
     margin: 0;
     padding: 0;
 }
@@ -44,22 +39,13 @@ body{
         display: flex;
         justify-content: space-between;
         .nav__elem1{
+            text-decoration: none;
             display: flex;
             align-items: center;
-            .elem1__imgContainer{
-                display: inline-block;
-                height: 100%;
-                .elem1__img{
-                    width: 105%;
-                    height: 105%;
-                }
-            }
             .elem1__text{
                 .elem1__text1{
                     font-family: 'Quicksand';
-                    font-style: normal;
                     font-weight: 700;
-                    font-size: 1.6rem;
                     font-size: 2rem;
                     line-height: 20px;
                     color: #0897AB;
@@ -69,9 +55,7 @@ body{
                 }
                 .elem1__text2{
                     font-family: 'Quicksand';
-                    font-style: normal;
                     font-weight: 700;
-                    font-size: 1.6rem;
                     font-size: 2rem;
                     line-height: 20px;
                     color: #FFFFFF;
@@ -85,26 +69,18 @@ body{
             align-items: center;
             gap: 53px;
             .elem2__searchContainer{
-                background: rgba(40, 40, 52, 0.01);
-                border: 2px solid #0897AB;
-                box-shadow: 0px 0px 38px rgba(0, 0, 0, 0.52);
-                border-radius: 23px;
-                border-radius: 75px;
-                padding-top: 15px;
-                padding-bottom: 15px;
-                padding-right: 176px;
-                padding-right: 225px;
-                display: flex;
-                justify-content: flex-start;
-                background: url(./img/main/magnifier.svg) 29px 18px no-repeat;
+                 background: url(./img/main/magnifier.svg) 29px 18px no-repeat;
                 .elem2__search{
-                    margin-left: 64px;
+                    padding: 15px 0 15px 65px;
+                    width: 250px;
                     font-family: 'Doppio One';
-                    font-style: normal;
                     font-weight: 400;
                     font-size: 1.6rem;
-                    line-height: 20px;
                     color: rgba(255, 255, 255, 0.58);
+                    background: rgba(40, 40, 52, 0.01);
+                    border: 2px solid #0897AB;
+                    box-shadow: 0px 0px 38px rgba(0, 0, 0, 0.52);
+                    border-radius: 75px;
                 }
             }
             .elem2__bin{
@@ -115,10 +91,8 @@ body{
                 position: relative;
                 .elem2__text{
                     font-family: 'Roboto';
-                    font-style: normal;
                     font-weight: 400;
                     font-size: 16px;
-                    line-height: 19px;
                     color: #FFFFFF;
                     background-color: #0897AB;
                     border-radius: 100%;
@@ -132,9 +106,8 @@ body{
         }
     }
     .main__description{
-        padding: 100px 67px 10% 200px;
+        padding: 100px 67px 10% 10%;
         margin: 0 680px 0 0;
-        padding-left: 10%;
         position: relative;
         z-index: 0;
         bottom: 100px;
@@ -153,17 +126,13 @@ body{
             }
             .description__h1{
                 font-family: 'Doppio One';
-                font-style: normal;
                 font-weight: 400;
                 font-size: 4.8rem;
-                line-height: 60px;
                 color: #FFFFFF;
-                width: 500px;
             }
             .description__text{
                 width: 650px;
                 font-family: 'Doppio One';
-                font-style: normal;
                 font-weight: 400;
                 font-size: 2rem;
                 line-height: 157%;
@@ -176,13 +145,12 @@ body{
             }
             .description__button{
                 font-family: 'Doppio One';
-                font-style: normal;
                 font-weight: 400;
-                font-size: 2rem;
-                line-height: 25px;         
+                font-size: 2rem;       
                 color: #FFFFFF;
                 padding: 20px 62px;
-                background: url(./img/main/Subtract.svg) 0 0/100% 100% no-repeat;
+                clip-path: polygon(15% 0%, 95% 0, 100% 20%, 100% 85%, 100% 100%, 5% 100%, 0 80%, 0 0);
+                background-color: #0897AB;
             }
             .description__link{
                 text-decoration: none;
@@ -207,20 +175,20 @@ body{
   }
   .HU-1-3__leftpanel {
     position: relative;
-    width: 49vw;
     width: 650px;
     z-index: 0;
   }
   .HU-1-3__leftpanel .leftpanel__img1 {
     width: 125px;
     position: absolute;
-    left: 35%;
-    top: 20%;
+    left: 210px;
+    height: 403px;
+    top: 108.5px;
   }
   .HU-1-3__leftpanel .leftpanel__img2 {
     width: 125px;
     position: absolute;
-    left: 53.847%;
+    left: 333.4px;
     height: 403px;
     top: 109px;
   }
@@ -242,12 +210,9 @@ body{
   .HU-1-3__leftpanel h1 {
     font-family: 'Dhurjati',sans-serif;
     position: absolute;
-    left: 27%;
-    top: 7.5%;
     top: 1%;
     left: 22%;
     color: white;
-    font-size: 5.6rem;
     font-size: 9.6rem;
     font-weight: normal;
     line-height: 16rem;
@@ -269,7 +234,6 @@ body{
   }
   .HU-1-3__rightpanel h3 {
     font-family: "Doppio One";
-    font-size: 2.4rem;
     font-size: 3.2rem;
     line-height: 4rem;
     color: white;
@@ -278,7 +242,6 @@ body{
   .HU-1-3__rightpanel span {
     font-family: "Doppio One";
     color: #D8A4B6;
-    font-size: 3rem;
     font-size: 3.2rem;
   }
   .HU-1-3__rightpanel p {
@@ -491,4 +454,111 @@ body{
 
     }
 
+}
+
+// Section 4 below
+
+.footer{
+  padding-top: 30px;
+  background: linear-gradient(112deg, rgb(6,7,17) , rgb(6,76,89) );
+  .footer__lists{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 15px;
+    .footer__list{
+      font-family: 'Doppio One';
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 237.5%;
+      color: #9d9d9d;
+      ul{
+        list-style: none;
+        li:first-child{
+          color: white;
+        }
+      }
+    }
+  }
+  .footer__bottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 75px;
+    border-top: 1px solid #55585c;
+    padding: 10px 0;
+    .footer__copyright{
+      font-family: 'Doppio One';
+      font-weight: 400;
+      font-size: 15px;
+      color: #55585c;
+    }
+    .footer__policy{
+      font-family: 'Doppio One';
+      font-weight: 400;
+      font-size: 15px;
+      color: #55585c;
+    }
+  }
+}
+
+.HU-2-1{
+  .HU-2-1__container{
+      padding: 2.6rem 9.7rem;
+      display: flex;
+      justify-content: space-between;
+      .HU-2-1__item1{
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+          .HU-2-1__logoText{
+              padding-left: 1rem;
+              .HU-2-1__logoText1{
+                  font-family: 'Quicksand', sans-serif;
+                  font-weight: 700;
+                  font-size: 1.6rem;
+                  color: #0897AB;
+                  margin: 0;
+                  text-transform: uppercase;
+              }
+              .HU-2-1__logoText2{
+                  font-family: 'Quicksand', sans-serif;
+                  font-weight: 700;
+                  font-size: 1.6rem;
+                  color: #FFFFFF;
+                  margin: 0;
+                  text-transform: uppercase;
+                  padding-left: 3rem;
+              }
+          }
+      }
+      .HU-2-1__item2{
+          display: flex;
+          align-items: center;
+          gap: 5.3rem;
+          .HU-2-1__searchContainer{
+               background: url(./img/magnifier.svg) 2.9rem 1.8rem no-repeat;
+              .HU-2-1__search{
+                  padding: 1.5rem 8rem 1.5rem 6.5rem;
+                  font-family: 'Doppio One';
+                  font-weight: 400;
+                  font-size: 1.6rem;
+                  color: rgb(40, 40, 52);
+                  background: rgba(40, 40, 52, 0.01);
+                  border: 0.2rem solid #FAFAFA;
+                  box-shadow: 3.8rem rgba(0, 0, 0, 0.52);
+                  border-radius: 7.5rem;
+                  outline: none;
+              }
+          }
+          .HU-2-1__sortContainer{
+              background-color: #009ED6;
+              padding: 2rem;
+              border-radius: 5rem;
+          }
+          .HU-2-1__bin{
+              text-align: center;
+              position: relative;
+          }
+      }
+  }
 }
