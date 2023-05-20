@@ -525,54 +525,60 @@ box-shadow: 0.5rem 0.5rem 1rem 1rem rgba(0,0,0,0.2);
 }
 &__rightpanel{
   width: 50%;
-}
-}
-.HU-2-5__rightpanel h2 {
+  h2 {
 
-  font-family: 'Doppio One', sans-serif;
-  font-size: 3rem;
-  font-weight: normal;
-  color: white;
-  font-weight: 400;
-  margin-top: 7rem;
+    font-family: 'Doppio One', sans-serif;
+    font-size: 3rem;
+    font-weight: normal;
+    color: white;
+    font-weight: 400;
+    margin-top: 7rem;
+  }
+  h3 {
+    font-family: "Doppio One";
+    font-size: 2.6rem;
+    line-height: 3rem;
+    color: white;
+    font-weight: normal;
+    }
+    p {
+      font-family: 'Doppio One';
+      font-size: 1.6rem;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 0.57);
+      width: 90%;
+      }
+      span {
+        font-family: "Doppio One";
+        color: #0897AB; 
+        font-size: 3rem;
+        }
 }
-.HU-2-5__rightpanel h3 {
-font-family: "Doppio One";
-font-size: 2.6rem;
-line-height: 3rem;
-color: white;
-font-weight: normal;
 }
-.HU-2-5__rightpanel span {
-font-family: "Doppio One";
-color: #0897AB; 
-font-size: 3rem;
-}
-.HU-2-5__rightpanel p {
-font-family: 'Doppio One';
-font-size: 1.6rem;
-font-weight: 400;
-color: rgba(255, 255, 255, 0.57);
-width: 90%;
-}
+// .HU-2-5__rightpanel 
+// .HU-2-5__rightpanel 
+// .HU-2-5__rightpanel 
+// .HU-2-5__rightpanel 
 .HU-2-5 .rightpanel__link {
 position: relative;
 display: flex;
 flex-direction: column;
+a {
+  font-family: 'Dhurjati';
+  font-weight: 400;
+  color: white;
+  font-size: 3rem;
+  line-height: 6.7rem;
+  display: inline-block;
+  margin: 0;
+  text-decoration: none;
+  }
+  hr {
+    width: 10rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    }
 }
-.HU-2-5 .rightpanel__link a {
-font-family: 'Dhurjati';
-font-weight: 400;
-color: white;
-font-size: 3rem;
-line-height: 6.7rem;
-display: inline-block;
-margin: 0;
-text-decoration: none;
-}
-.HU-2-5 .rightpanel__link hr {
-width: 10rem;
-position: absolute;
-left: 0;
-bottom: 0;
-}
+// .HU-2-5 .rightpanel__link 
+// .HU-2-5 .rightpanel__link
