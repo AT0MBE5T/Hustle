@@ -212,18 +212,6 @@ body, .elem1__text > p, .description__square > p {
   color: white;
   background-color: black;
   padding: 5rem 0 10rem 0;
-  position: relative;
-}
-.HU-3-4__blot {
-  position: absolute;
-  z-index: 0;
-  right: 33rem;
-  width: 16.5rem;
-  height: 12.2rem;
-}
-.HU-3-4__title {
-  position: relative;
-  z-index: 1;
 }
 .HU-3-4__title h1 {
   margin: 0 auto;
@@ -233,11 +221,10 @@ body, .elem1__text > p, .description__square > p {
   font-family: "Quicksand";
   font-weight: 700;
   font-size: 3.2rem;
-  padding-top: 2.5;
+  padding-top: 2.5rem;
+  letter-spacing: 0.065em;
 }
 .HU-3-4 .feedback {
-  position: relative;
-  z-index: 1;
   display: flex;
   justify-content: space-evenly;
   padding-left: 75px;
