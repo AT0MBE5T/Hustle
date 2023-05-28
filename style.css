@@ -191,10 +191,11 @@ body {
   color: #FDFDFD;
 }
 .HU-3-2 h2 {
-  font-size: 2rem;
+  font-size: 3.2rem;
+  letter-spacing: 0.145rem;
   text-align: center;
+  font-family: 'Quicksand';
   text-transform: uppercase;
-  font-family: "Quicksand";
 }
 .HU-3-2 hr {
   border: solid 0.1rem #0897AB;
