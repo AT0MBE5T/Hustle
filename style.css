@@ -198,7 +198,7 @@ body {
   font-family: "Quicksand";
 }
 .HU-3-2 hr {
-  border: solid 1px #0897AB;
+  border: solid 0.1rem #0897AB;
 }
 .HU-3-2__desc {
   font-weight: 400;
