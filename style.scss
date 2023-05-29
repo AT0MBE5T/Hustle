@@ -490,6 +490,10 @@ body, .elem1__text > p, .description__square > p{
     margin: 0 75px;
     border-top: 1px solid #55585c;
     padding: 10px 0;
+    a{
+      text-decoration: none;
+      color: #55585c;
+    }
     .footer__copyright{
       font-family: 'Doppio One';
       font-weight: 400;
@@ -1148,6 +1152,10 @@ a {
     margin: 0 7.5rem;
     border-top: 0.1rem solid #55585c;
     padding: 1rem 0;
+    a{
+      text-decoration: none;
+      color: #55585c;
+    }
     .HU-3-5__copyright{
       font-family: 'Doppio One';
       font-weight: 400;
